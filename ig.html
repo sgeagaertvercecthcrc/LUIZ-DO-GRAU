@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Constri facil</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f5f0f0;
+       }
+       header {
+           background-color: #fd0505;
+           color: #fff;
+           text-align: center;
+           padding: 20px 0;
+       }
+       nav {
+           background-color: #000000;
+           color: #5c585849;
+           text-align: center;
+           padding: 10px 0;
+       }
+       nav a {
+           color: #fff;
+           text-decoration: none;
+           margin: 0 20px;
+       }
+       section {
+           padding: 20px;
+       }
+       footer {
+           background-color: #101011;
+           color: #fff;
+           text-align: center;
+           padding: 10px 0;
+           position: fixed;
+           bottom: 0;
+           width: 100%;
+       }
+       form {
+           max-width: 500px;
+           margin: 0 auto;
+       }
+       label {
+           display: block;
+           margin-bottom: 10px;
+       }
+       input, select, textarea {
+           width: 100%;
+           padding: 10px;
+           margin-bottom: 15px;
+           box-sizing: border-box;
+       }
+       button {
+           background-color: #4CAF50;
+           color: #fff;
+           padding: 10px 15px;
+           border: none;
+           cursor: pointer;
+       }
+   </style>
+</head>
+<body>
+   <header>
+       <h1>PODIPEDREIRO</h1>
+       <img src="constroifacil.jpeg" alt="Logo da Empresa">
+   </header>
+
+
+   <nav>
+       <a href="#home">Página Inicial</a>
+       <a href="#contato">Contato</a>
+       <a href="#fotos">Fotos</a>
+   </nav>
+
+
+   <section id="home">
+       <h2>Bem-vindo à PODIPEDREIRO</h2>
+       <p> A melhor loja de materiais de contruçõs da região</p>
+   </section>
+
+
+   <section id="contato">
+       <h2>whats: 45 99929-2758
+           instagram:PODIPEDREIRO23
+           <instagram:contruifacil</instagram:contruifacil_>
+       </h2>
+       <form action="#" method="post">
+           <label for="nome">Nome:</label>
+           <input type="text" id="nome" name="nome" required>
+
+
+           <label for="telefone">Telefone:</label>
+           <input type="tel" id="telefone" name="telefone" required>
+
+
+           <label for="cidade">Cidade:</label>
+           <select id="cidade" name="cidade" required>
+               <option value="Foz do iguaçu">Foz do iguaçu</option>
+               <option value="Goiania">Goiania</option>
+               <option value="Curitiba">Curitiba</option>
+               <option value="Cascavel">Cascavel</option>
+               <option value="Chapecó">Chapecó</option>
+               <option value="Santa Catarina">Santa Catarina</option>
+               <option value="Santa Teresinha">SantaTeresinha</option>
+               <option value="Londrina">Londrina</option>
+               <option value="Paranaguá">Paranaguá</option>
+               <option value="Chopinzinho">Chopinzinho</option>
+               <option value="Campo Mourão">Campo Mourão</option>
+               <option value="São Paulo">São Paulo</option>
+               <option value="Rio de Janeiro">Rio de Janeiro</option>
+               <option value="Pato Branco">Pato Branco</option>
+               <option value="Toledo">Toledo</option>
+               
+               <!-- Adicione mais 14 cidades aqui -->
+
+
+           </select>
+
+
+           <label for="mensagem">Mensagem:</label>
+           <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+
+           <button type="submit">Enviar</button>
+       </form>
+   </section>
+
+
+   <footer>
+       Todos os direitos reservados &copy; podi pedreiro
+   </footer>
+</body>
+</html>
